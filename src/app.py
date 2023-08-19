@@ -21,3 +21,7 @@ def index():
         prediction = model.predict(data)
     
     return render_template("index.html", prediction = prediction)
+
+
+    # URL for the Web App
+    # https://diabetes-flask.onrender.com/
